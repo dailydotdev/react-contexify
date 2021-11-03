@@ -39,7 +39,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "react-contexify",
+  "name": "@dailydotdev/react-contexify",
   "author": "Fadi Khadra <fdkhadra@gmail.com> (https://github.com/fkhadra)",
   "repository": {
     "type": "git",
