@@ -1,5 +1,5 @@
 {
-  "version": "5.0.1",
+  "version": "5.0.2",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -23,10 +23,6 @@
     "postsass": "postcss dist/ReactContexify.css --use autoprefixer -m -o dist/ReactContexify.css",
     "style": "yarn run sass && cssnano dist/ReactContexify.css dist/ReactContexify.min.css --no-zindex --no-reduceIdents && yarn run gen-style-injector",
     "gen-style-injector": "node scripts/style-injector.js"
-  },
-  "peerDependencies": {
-    "react": ">=16",
-    "react-dom": ">=16"
   },
   "husky": {
     "hooks": {
